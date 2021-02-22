@@ -25,7 +25,7 @@ public class Check{
               * 問3
               * 以下、配列の添字を入れてソートを完成させなさい
               */
-              if(data[j] > data[j - 1]){
+              if(data[j - 1 ] > data[j]){
                 int box = data[j];
                 data[j] = data[j - 1];
                 data[j - 1] = box;
