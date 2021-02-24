@@ -31,7 +31,7 @@
 }
 
 #main-right{
-  float: right;
+  float: left;
   height: 250px;
   width: 250px;
 }
@@ -44,8 +44,8 @@
 }
 
 #main-right-left-right{
-  float: left;
-  height: 1;
+  float: right;
+  height: 150px;
   width: 100px;
   background-color: #ff9e6b;
 }
