@@ -1,0 +1,196 @@
+/* リセットcss */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+/* ヘッダー */
+#header{
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+#header-box{
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  left: 220px;
+}
+
+#header-box1{
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#header-box2{
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+
+#header-box3{
+  width: 40px;
+  height: 40px;
+  background-color: #a9004b;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+
+/* メイン */
+#main{
+  width: 400px;
+  height: 250px;
+}
+
+#main-left{
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+#main-right{
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+
+#main-right-box1{
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: solid 5px white;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+#main-right-box2{
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: solid 5px white;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+#main-right-box3{
+  width: 140px;
+  height: 40px;
+  background-color: #ff863f;
+  border: solid 5px white;
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+
+#footer{
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+@media screen and (max-width: 479px) {
+  #header{
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  #header-box{
+    width: 60px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 70px;
+  }
+  
+  #header-box1{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #header-box2{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+  }
+  
+  #header-box3{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+  }
+  
+  /* メイン */
+  #main{
+    width: 200px;
+    height: 500px;
+  }
+  
+  #main-left{
+    width: 200px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: none;
+  }
+  
+  #main-right{
+    width: 200px;
+    height: 250px;
+    background-color: #8c2727;
+    float: none;
+  }
+  
+  #main-right-box1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+  }
+  
+  #main-right-box2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  
+  #main-right-box3{
+    position: relative;
+    top: 40px;
+    left: 30px;
+  }
+  
+  #footer{
+    width: 200px;
+  }
+}
