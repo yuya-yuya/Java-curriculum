@@ -1,0 +1,76 @@
+/* リセットcss */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+/* ヘッダー */
+#header{
+  width: 600px;
+  height: 150px;
+  background-color: #ffff00;
+}
+
+/* メイン */
+#main{
+  width: 600px;
+  height: 300px;
+}
+
+#main-upper{
+  width: 600px;
+  height: 150px;
+}
+
+#main-upper-left{
+  width: 200px;
+  height: 150px;
+  background-color: #33ffff;
+  float: left;
+}
+
+#main-upper-center{
+  width: 200px;
+  height: 150px;
+  background-color: #ff0000;
+  float: left;
+}
+
+#main-upper-right{
+  width: 200px;
+  height: 150px;
+  background-color: #0000ff;
+  float: left;
+}
+
+#main-lowwer{
+  width: 600px;
+  height: 150px;
+}
+
+#main-lowweer-left{
+  width: 450px;
+  height: 150px;
+  background-color: #00ff00;
+  float: left;
+}
+
+#main-lowweer-right{
+  width: 150px;
+  height: 150px;
+  background-color: #ff00ff;
+  float: left;
+}
+
+/* フッター */
+#footer{
+  width: 600px;
+  height: 150px;
+  background-color: #33ffff;
+}
