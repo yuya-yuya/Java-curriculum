@@ -1,7 +1,5 @@
 package study;
 
-import javax.security.auth.login.AccountException;
-
 /**
  * Main.java
  *
@@ -21,7 +19,6 @@ public class Main {
     	Account account= new Account();
 
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
-    	account.username
-
+    	account.username();
     }
 }
