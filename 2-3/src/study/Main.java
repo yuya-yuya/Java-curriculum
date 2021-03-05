@@ -14,13 +14,7 @@ public class Main {
 
         // ③ Taskクラスのインスタンスを生成し、「doTask()」メソッドを呼び出しなさい。
     	Task task = new Task();
-    	int taskvalue1 = task.Calculatorplus(10);
-    	int taskvalue2 = task.Calculatorplus(15,15);
-    	int taskvalue3 = task.Calculatorplus(20,20,20);
-
-    	System.out.println(taskvalue1);
-    	System.out.println(taskvalue2);
-    	System.out.println(taskvalue3);
+    	task.doTask();
 
     }
 
