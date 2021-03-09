@@ -1,12 +1,10 @@
 package check;
 
 import constants.Constants;
-import check.Pet;
-import check.RobotPet;
 
 public class Check {
-	private String firstName = "yuya";
-	private String lastName = "yamada";
+	private static String firstName = "yuya";
+	private static String lastName = "yamada";
 
 	public static void main(String[] args) {
 
@@ -20,7 +18,7 @@ public class Check {
 
 	}
 
-	private String printName(String firstName, String lastName) {
+	private static String printName(String firstName, String lastName) {
 		return "printNameメソッド→" + lastName +firstName;
 	}
 
