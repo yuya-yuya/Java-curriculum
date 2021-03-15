@@ -3,6 +3,7 @@ package study;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -47,8 +48,8 @@ public class Study {
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。      
-        for(Entry<String,Integer> entry : shopMap.entrySet()){
-        	System.out.println(entry.getKey() + entry.getValue() + "になります！");
+        for(Map.Entry<String,Integer> entry : shopMap.entrySet()) {
+        	System.out.println(entry.getKey() + "=" + entry.getValue() + "円になります！");
         }
 
 
